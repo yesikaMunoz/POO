@@ -1,0 +1,20 @@
+package Triangulo;
+
+public class Trapecio {
+
+    private int lado;
+     public Trapecio(int lado){
+        this.lado=lado;
+     }
+
+     public int calcularArea (int lado){
+        int area;
+         area=lado*lado; 
+         return area;
+     }
+
+     public static void main(String[] args) {
+        
+        Trapecio a= new Trapecio(0);
+     }
+}
